@@ -7,4 +7,7 @@ function drawSquare(x_position, y_postion, color){
 
 drawSquare(30, 30, "#ff259d");
 
+
+function drawPrize(){}
+
 // call draw square and listen for position if block hits prize
