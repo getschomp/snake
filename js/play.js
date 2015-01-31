@@ -49,7 +49,8 @@ function makeGrid(){
 }
 
 function moveRight{
-  
+  // needs to delete head and add tail to snake 
+
 }
 
 function drawPrize(){}
