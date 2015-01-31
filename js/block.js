@@ -1,12 +1,10 @@
-function draw_Square(x_position, y_postion, color){
+function drawSquare(x_position, y_postion, color){
   /* width and height to be fixed.*/
   context.strokeStyle = color;
   context.fillStyle = color;
-  co
-
-
+  context.fillRect(x_position, y_postion, 30, 30);
 }
 
-draw_square(30, 20, "black")
+drawSquare(30, 30, "#ff259d");
 
-/* call draw square if 
+// call draw square and listen for position if block hits prize
